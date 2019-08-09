@@ -1,0 +1,271 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noarchive" />
+    <meta name="description" content="NetMaze" />
+    <link rel="canonical" href="" />
+    
+    <title>  NetMaze 2k19 </title>
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://he-s3.s3.amazonaws.com/media/cache/ff/b2/ffb27ecb7a8f309f7923c829c090f66d.png" />
+
+
+    <link rel="stylesheet" href="https://static-fastly.hackerearth.com/static/css/unicons.css?vrsn=1">
+    <link rel="stylesheet" href="/css/base_common_combined.css"/>
+    <link rel="stylesheet" href="/css/tipTip.css"/>
+    <link rel="stylesheet" href="/css/offline-theme-slide.css"/>
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/opensans.css"/>
+    <link rel="stylesheet" href="/css/unicons.css"/>
+    <link rel="stylesheet" href="/css/base_candidate.0.1.css"/>
+
+    
+    
+  </head>
+
+  <body >
+    
+    <script type="text/javascript">
+      navigator.sayswho= (function(){
+        var ua= navigator.userAgent,
+          N= navigator.appName, tem,
+          M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\/?\s*([\d\.]+)/i) || [];
+        M= M[2]? [M[1], M[2]]:[N, navigator.appVersion, '-?'];
+        if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];
+        return M.join(' ');
+      })();
+
+      var browser = navigator.sayswho;
+      var parts = browser.split(" ");
+      browser = parts[0].toLowerCase();
+      version = parts[1];
+      var version_parts = version.split(".");
+      version = parseInt(version_parts[0]);
+
+      if ((browser == 'chrome' && version < 40) || (browser == 'firefox' && version < 35) || (browser == 'msie' && version < 11) || (browser == 'safari' && version < 11) || (browser == 'opera' && version < 27)) {
+        window.location.href = "/browser-not-supported/";
+      }
+    </script>
+
+    
+
+    
+    <div id="end-test-alert-message" class="hidden">
+      <div class="alert-message">
+        Your test will end in <span class="minutes-left"></span>. Ensure that you have submitted all your answers.
+        <span class="close-button"> OK</span>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+
+    
+    <div id="alert-message-holder">
+      
+
+      
+      <div class="alert-message hidden">
+        <div class="message float-left"></div>
+        <div class="cross-holder float-left"><span class="small-cross sprites"></span></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+
+    
+    <div class="header" style="background-color: rgb(40, 160, 255);">
+      <div class="float-left box-padding-20">
+        
+        
+        <div class="company-logo-header" >
+          <img alt="NetMaze" style="border: 2px solid rgb(133, 129, 129);border-radius: 20%;" height="30" width="30" src="https://he-s3.s3.amazonaws.com/media/cache/ff/b2/ffb27ecb7a8f309f7923c829c090f66d.png"/>
+        </div>
+        
+
+
+        <div class="header-name ellipsis">NET MAZE 2K19</div>
+        
+
+        <div class="clear"></div>
+      </div>
+      
+    
+    <div class="mfe" id="mfe"></div>
+    
+    <div class="body">
+      
+
+
+<div class="event-states-bar regular bold dark">
+    
+    <div class="inline-block active"> <div class="inline-block number-in-circle active">1</div> Read Instructions</div>
+    </div>
+
+<div class="responsive-container dark">
+  
+    <div class="align-center dark standard-margin medium-margin-bottom">
+        <div class="weight-700 large-18">Use this time to read the instructions.</div>
+    </div>
+    <hr class="hr medium-margin-bottom" />
+  
+
+  <div>
+    
+    <div class="float-left div-width-60">
+      <div class="standard-margin-right" id="instructions-container" scroll-target="instructions-container">
+
+        
+        <div class="standard-margin standard-margin-bottom">
+            <div class="regular weight-700">Test Instructions</div>
+            <ul>
+	<li>
+              <div class="regular less-margin unindented-list-container" id="test-instructions-container">
+	<h2><strong>The event conduct fully General Knowledge question.</strong></h2>
+	</li>
+	<!--<li>
+	<h2><strong></strong></h2>
+	</li>-->
+</ul>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </div>
+    
+ <div class="div-width-40  float-right ">
+      <div class="standard-margin-left enter-test-box medium-margin-bottom">
+        <div id="solve-problems-container" class="regular weight-700 less-margin medium-margin-bottom align-center">
+            You can start the Event
+          <div id="countdown" class="inline-block">
+              
+              <span id="minutes">00</span>:<span id="seconds">10</span>
+              
+          </div>
+        </div>
+        <div class="less-margin less-margin-right less-margin-left">
+          <form method="GET" class="show-problems-form" action="/index.html" onclick="openFullscreen();">
+            <input type='hidden' name='' value='' />
+            <button type="submit" id="show_problems_btn" class="disabled button btn-green btn-large large enter-test-button body-font weight-700" disabled="disabled" >Start<i class="fa fa-arrow-circle-right"></i></button>
+          </form>
+        </div>
+      </div>
+      
+        <div class="medium-margin standard-margin-bottom standard-margin-left padding-10 proctoring-instructions">
+            <div class="regular attention-grabber">
+              <b  class="icon ui-idea-bulb"></b>
+              <span>Important: </span>
+              <span class="normal">Proctoring Instructions</span>
+            </div>
+          <ol class="regular less-margin unindented-list">
+            
+            
+              
+                <li>
+                  Select, Copy, and Paste are disabled in the problem statement and in the webpage.
+                </li>
+              
+            
+            
+            
+            
+                <li>
+                
+                    This test can be taken in full-screen mode only.
+                
+                </li>
+            
+            
+          </ul>
+        </div>
+        
+    </div>
+
+  </div>
+</div>
+
+</div> 
+    <script type="text/javascript" src="/javascript/alljs.js" crossorigin="anonymous" ></script>
+    
+    <script type="text/javascript" src="/javascript/base1.0.1.js" crossorigin="anonymous" ></script>
+    
+    
+    
+
+    
+  
+<script type="text/javascript">
+    // Need these in read instructions js
+    var countdown_timer_duration = 10;
+    var M_PRIVATE_TEST_INTERFACE =  false ;
+    var repeat_visitor = false;
+    var is_password_protected = false;
+    var START_SOLVING_PROBLEMS = "You can start the Event";
+</script>
+
+<script type="text/javascript" src="/javascript/read_instructions.js" crossorigin="anonymous" ></script>
+   
+<div id="instructions-modal" class="modal-window very-large-modal" execute-on-show='closeDropDown'>
+    <div class="modal-header">
+        Instructions
+    </div>
+    <div class="modal-content">
+        
+        <div class="content-heading">Proctoring Instructions</div>
+            <div class="body-font standard-margin-bottom">
+                <ul>
+                    
+                    
+                        <li>Copy-paste is disabled in the code editor.</li>
+                    
+                    
+                    
+                    
+                    
+                        <li>
+                        
+                            You are required to be in <span class="weight-700">full-screen mode</span> for the entire duration of the test.
+                        
+                        </li>
+                    
+                </ul>
+            </div>
+        
+        
+
+        <div class="content-heading standard-margin">General Guidelines</div>
+        <div class="body-font standard-margin-bottom">
+            <ul>
+                <li>
+                
+                    This test contains <span class="weight-700">40 Objective questions</span>.
+                
+                </li>
+
+                <li>
+                
+                    The duration of this test is<span class="weight-700"></span>. Your time will start when you see the questions. Once you start the test, you can not pause it.
+                
+                </li>
+
+                <li>Do not use any Online Development Environment, which exposes your code to the public. We take plagiarism seriously and do not entertain activities that are against the spirit of learning and programming. Violations can lead to account suspension or permanent blacklisting from HackerEarth.
+                </li>
+            </ul>
+        </div>
+
+    </div> <!-- /modal-content -->
+</div>
+  </body>
+</html>
